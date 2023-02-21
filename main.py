@@ -11,18 +11,18 @@ currency = "Ksh"
 
 curr_num = int(input("choose your currency's number"))
 #cheking for the selected currency
-if curr_num == 1;
+if curr_num == 1:
     currency = "Ksh"
-elif curr_num == 2;
+elif curr_num == 2:
     currency = "D"
-elif curr_num  == 3;
+elif curr_num  == 3:
     currency = "BIRR"
-elif curr_num == 4;
+elif curr_num == 4:
     currency == "GHS"
-elif curr_num == 5;
+elif curr_num == 5:
     currency = "NGN"
 else:
-print("sorry, no currency exists with this number. Hence, the default 'Ksh' will be used")
+    print("sorry, no currency exists with this number. Hence, the default 'Ksh' will be used")
 
 
 #creating variables
